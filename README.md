@@ -36,7 +36,7 @@ The definition of `reliabilityFun` and the main theorem statement were carefully
 | `Defs.lean` | Definitions of `reliabilityFun`, `splitRelFun`, and `reliabilityRootSet` |
 | `BlockAlgebra.lean` | Algebraic identity for cycle and path compositions of blocks |
 | `CycleGadget.lean` | Cycle-substitution graph $C_n[H]$: construction, connectivity, and reliability formula |
-| `LimCompleteGraph.lean` | Asymptotic limits: $\textrm{Rel}(K_n; q) \to 1$ and $\textrm{splitRel}(K_n; q)/q^{n-1} \to 2$ for $|q| < 1$ |
+| `LimCompleteGraph.lean` | Asymptotic limits: $\textrm{Rel}(K_n; q) \to 1$ and $\textrm{splitRel}(K_n; q)/q^{n-1} \to 2$ for $\lvert q\rvert < 1$ |
 | `ReliabilityProof.lean` | Core density argument via IVT applied to $\textrm{Rel}(K_m; q) + n \cdot \textrm{splitRel}(K_m; q)$ |
 | `MainTheorem.lean` | Clean theorem statement |
 
