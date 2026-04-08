@@ -12,7 +12,7 @@ This is a formalization of item 2 of the main theorem of the paper:
 
 Let $G = (V, E)$ be a connected graph. If each edge fails independently with probability $q$, the probability that the remaining edges still form a connected spanning subgraph is the **reliability polynomial**
 
-$$\operatorname{Rel}(G;\, q) \;=\; \sum_{\substack{S \subseteq E \\\ (V,S)\ \text{connected}}} (1-q)^{|S|}\, q^{\,|E|-|S|}.$$
+$$\textrm{Rel}(G;\, q) \;=\; \sum_{\substack{S \subseteq E \\\ (V,S)\ \text{connected}}} (1-q)^{|S|}\, q^{\,|E|-|S|}.$$
 
 ## Formal statement
 
@@ -36,8 +36,8 @@ The definition of `reliabilityFun` and the main theorem statement were carefully
 | `Defs.lean` | Definitions of `reliabilityFun`, `splitRelFun`, and `reliabilityRootSet` |
 | `BlockAlgebra.lean` | Algebraic identity for cycle and path compositions of blocks |
 | `CycleGadget.lean` | Cycle-substitution graph $C_n[H]$: construction, connectivity, and reliability formula |
-| `LimCompleteGraph.lean` | Asymptotic limits: $\operatorname{Rel}(K_n; q) \to 1$ and $\operatorname{splitRel}(K_n; q)/q^{n-1} \to 2$ for $|q| < 1$ |
-| `ReliabilityProof.lean` | Core density argument via IVT applied to $\operatorname{Rel}(K_m; q) + n \cdot \operatorname{splitRel}(K_m; q)$ |
+| `LimCompleteGraph.lean` | Asymptotic limits: $\textrm{Rel}(K_n; q) \to 1$ and $\textrm{splitRel}(K_n; q)/q^{n-1} \to 2$ for $|q| < 1$ |
+| `ReliabilityProof.lean` | Core density argument via IVT applied to $\textrm{Rel}(K_m; q) + n \cdot \textrm{splitRel}(K_m; q)$ |
 | `MainTheorem.lean` | Clean theorem statement |
 
 ## TODO
