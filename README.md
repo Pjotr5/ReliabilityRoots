@@ -12,7 +12,7 @@ This is a formalization of item 2 of the main theorem of the paper:
 
 Let $G = (V, E)$ be a connected graph. If each edge fails independently with probability $q$, the probability that the remaining edges still form a connected spanning subgraph is the **reliability polynomial**
 
-$$\textrm{Rel}(G;\, q) \;=\; \sum_{\substack{S \subseteq E \\\ (V,S)\ \text{connected}}} (1-q)^{|S|}\, q^{\,|E|-|S|}.$$
+$$\textrm{Rel}(G;  q) \;=\; \sum_{\substack{S \subseteq E \\\ (V,S)\ \text{connected}}} (1-q)^{|S|}  q^{ |E|-|S|}.$$
 
 ## Formal statement
 
