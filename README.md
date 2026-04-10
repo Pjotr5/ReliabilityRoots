@@ -6,7 +6,7 @@ A Lean 4 formalization (using [Mathlib](https://github.com/leanprover-community/
 
 This is a formalization of item 2 of the main theorem of the paper:
 
-> P. Buys, *Density of reliability roots of simple graphs in the unit disk*, (2026).
+> P. Buys, *Density of reliability roots of simple graphs in the unit disk*, (2026). [arXiv:2604.07541](https://arxiv.org/abs/2604.07541)
 
 ## Reliability polynomial
 
